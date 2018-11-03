@@ -1,0 +1,13 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/api1/findAll"
+    },
+    "response": {
+    "status": 200,
+    "jsonBody": {"nome":"joao","cpf":"111.111.111-11"},
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

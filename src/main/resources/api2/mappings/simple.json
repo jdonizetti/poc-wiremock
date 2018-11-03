@@ -1,0 +1,15 @@
+{
+    "request": {
+        "method": "POST",
+        "url": "/api2/create",
+        "bodyPatterns" : [ {
+      "equalToJson" : {"nome":"joao","cpf":"111.111.111-11"}
+    } ]
+    },
+    "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
